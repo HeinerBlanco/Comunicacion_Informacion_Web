@@ -1,0 +1,7 @@
+i{
+    font-size: 3rem;
+    transition: .3s all ease-in-out ;
+    &:hover{
+        font-size: 3.2rem;
+    }
+}

@@ -1,0 +1,173 @@
+
+
+@media only screen and (max-width: 575px) {
+
+    header {
+        margin: 15%;
+        height: 20vh;
+        ;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 150px !important;
+    }
+
+    header img {
+        width: 100% !important;
+    }
+
+    .planes{
+        max-width: 40%;
+
+    }
+
+        iframe {
+           display: none;
+        }
+    p{
+        font-size: 15px !important;
+    }
+
+    i {
+        font-size: 1rem;}
+
+}
+
+
+
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    header {
+        height: 40vh;
+        ;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: 150px !important;
+    }
+
+
+    #logo {
+        width: 10%;
+    }
+
+    .frase{
+        margin-top: -30% !important;
+    }
+
+    header h1 {
+        font-size: 1.5rem !important;
+        z-index: 100 !important;
+        margin-top: -120px;
+        color: blue;
+    }
+    #navbarNavDropdown{
+        padding-left: 10%;
+        padding-top: 20px;
+        padding-bottom: -10px;
+
+    }
+    nav a {
+        font-size: 1.3rem;
+    }
+
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    header {
+        height: 70vh;
+        ;
+    }
+
+    iframe {
+        width: 90% !important;
+    }
+
+
+    #logo {
+        width: 10%;
+    }
+
+    .frase{
+        margin-top: -35% !important;
+    }
+
+    header h1 {
+        font-size: 200% !important;
+        z-index: 100 !important;
+        margin-top: -120px;
+        color: green;
+    }
+    nav a {
+        font-size: 1.3rem;
+    }
+    
+    header img {
+    }
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+
+    iframe {
+        width: 90% !important;
+        height: 300px !important;
+    }
+
+
+    #logo {
+        width: 10%;
+    }
+
+    .frase{
+        margin-top: -40% !important;
+    }
+
+    header h1 {
+        font-size: 250% !important;
+        z-index: 100 !important;
+        margin-top: -120px;
+    }
+
+    nav a {
+        font-size: 1.5rem !important;
+    }
+
+    
+}
+
+
+
+@media only screen and (min-width: 1200px){
+
+
+    nav a {
+        font-size: 1.7rem !important;
+        
+    }
+    iframe {
+        width: 80% !important;
+    }
+
+}
+
+
+
+
+

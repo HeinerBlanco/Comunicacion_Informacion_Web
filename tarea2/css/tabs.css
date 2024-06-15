@@ -1,0 +1,138 @@
+/* propiedades de la caja del tabulador */
+
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+.tablinks{
+    width: 100% !important;
+    height: 60px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 2rem 2rem 2rem 2rem rgba(21, 21, 21, 0.1);
+}
+
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+.tam1 {
+    font-size: 24px;
+}
+
+
+/* controla propiedades de los TABS */
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    color: #000;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    ;
+
+}
+
+
+/* controla el color sobre los TABS */
+
+.tab button:hover {
+    background-color: #6d3f3f;
+    color: #fff;
+}
+
+
+/* controla el color activo de los TABS */
+
+.tab button.active {
+    background-color: #1f3b21;
+    color: #fff;
+}
+
+
+/* controla el contenido de cada pestaña tab */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 2px solid #ccc;
+    border-top: none;
+    background: none;
+}
+
+.planes{
+    margin-top: 5rem;
+    max-width: 80%;
+    padding: 1rem;
+    box-shadow: inset 2rem 2rem 2rem 2rem rgba(21, 21, 21, 0.1);
+    color : rgb(7, 7, 7);
+    border: none;
+  }
+  
+  .seccion2
+   {
+    margin-top: 15%;
+    margin-bottom: 15% !important;
+
+  }
+  .card-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+  }
+  
+  .card{
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 20px;
+  }
+  
+  .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+  }
+  .card img{
+    border-radius: 10px 10px 0 0 ;
+    width: 100%;
+    height: 200px;
+  }
+  
+  
+
+
+/* El efecto de animación desvanecimiento tarda 2 segundos al entrar a cada pestaña */
+
+.tabcontent {
+    animation: efect1 1s;
+}
+
+@keyframes efect1 {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
