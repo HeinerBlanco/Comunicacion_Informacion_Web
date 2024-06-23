@@ -1,0 +1,35 @@
+
+.fondoentradas,
+.fondopastas,
+.fondores,
+.fondopollo,
+.fondopostres
+{
+    padding: 10%;
+}
+
+
+.fondoentradas {
+    background-color: #49f04980;
+    padding: 10%;
+}
+
+.fondopastas {
+    background-color: #e7f75c;
+}
+
+.fondores{
+    background-color: #c75252;
+}
+
+.fondopollo{
+    background-color: #a56060;
+}
+
+.fondopostres{
+    background-color: #6159c9;
+}
+
+
+
+
