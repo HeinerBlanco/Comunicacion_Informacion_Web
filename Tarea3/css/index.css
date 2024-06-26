@@ -1,4 +1,9 @@
 
+
+body{
+    font-family: roboto;
+}
+
 .wavetop{
     position: absolute;
     top: 0;
@@ -78,7 +83,7 @@ h3{
 }
 
 .paralax{
-    background-image: url(/imagenes/POSTRE.jpg);
+    background-image: url(/imagenes/donas1.jpg);
     background-attachment: fixed;
     background-size:cover;
     background-position: center;
@@ -94,16 +99,16 @@ h3{
     }
 }
 
-.paralax h1 {
-    font-size: 100px;
+table {
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100%;
 }
 
-ul{
+tr{
     list-style: none;
+    color: black;
+    text-align: left;
+    font-size: 20px;
 }
 
 .menu{

@@ -1,35 +1,36 @@
 
-.fondoentradas,
-.fondopastas,
-.fondores,
-.fondopollo,
-.fondopostres
-{
-    padding: 10%;
+
+
+
+
+.titulos2{
+    margin-top: 10% !important;
+
+}
+.display-4, .display-1{
+    text-decoration: underline;
+    text-decoration-color: red;
+
 }
 
-
-.fondoentradas {
-    background-color: #49f04980;
-    padding: 10%;
+.textosmenu p {
+    text-align: center;
+    padding-bottom: 5%;
 }
 
-.fondopastas {
-    background-color: #e7f75c;
+.textosmenu{
+    padding-bottom: 5%;
 }
 
-.fondores{
-    background-color: #c75252;
+.imagenesmenu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
 }
 
-.fondopollo{
-    background-color: #a56060;
+.textopostres td {
+    color: white;
+    margin-bottom: 15% !important;
 }
-
-.fondopostres{
-    background-color: #6159c9;
-}
-
-
-
-
