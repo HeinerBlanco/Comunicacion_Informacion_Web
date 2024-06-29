@@ -1,0 +1,135 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .display-1 {
+        margin-top: 25%;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+
+    .lottie { 
+        display: none;
+    }
+
+    .titulos2{
+        margin-top: 35% !important;
+    }
+
+    tr {
+        font-size: 1rem;
+    }
+    .pasta {
+        margin-top: 50%;
+        margin-bottom: -55%;
+    }
+
+    #postres {
+        margin-top: 50% !important;
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.9);
+
+
+    }
+
+    #postres h1 {
+        font-size: 30px
+    }
+    #postres p {
+        font-size: 16px
+    }
+    #postres img {
+       margin-top: 30%;
+    
+    }
+
+    #equipo {
+        margin-top: 350px !important;
+    }
+    #equipo p{
+        font-size: 16px;}
+
+    #videos iframe {
+       height: 5vh;;
+    }
+
+    #mapas {
+        margin-top: 100px !important;
+    }
+
+    .iconos{
+        padding-top: 20%;
+    }
+
+    .iconosgrafia{
+        display: flex;
+        justify-content: center;    
+        gap: 5%;
+    
+    }
+    .iconosgrafia a {
+        width: 10%;
+        height: 15%;
+        border-radius: 60%;
+        padding-top: 5%;
+    }
+
+    .goto-top {
+        bottom: 30px;
+        right: 20px;
+        width: 40px;
+        height: 50px;
+    
+    } 
+
+    .container-botonws {
+        bottom: 45px;
+        left: 25px;
+        transition: ease 0.3s;
+        animation: efecto 1.5s infinite;
+      }
+
+      .botonws {
+        width: 30px;
+
+        transition: ease 1s;
+      }
+      
+
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .display-1 {
+        margin-top: 20%;
+    }
+
+
+
+    .lotimenu .lottie { 
+        margin-bottom: -20%;
+        margin-right: 4%;
+    }
+      
+
+
+
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {
+}
+
+ Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {
+    
+} */

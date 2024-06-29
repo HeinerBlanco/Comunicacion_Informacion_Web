@@ -108,7 +108,7 @@ tr{
     list-style: none;
     color: black;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.3rem;
 }
 
 .menu{
@@ -122,3 +122,4 @@ tr{
     padding: 0;
     
 }
+
