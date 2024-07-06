@@ -112,6 +112,7 @@ tr{
 }
 
 .menu{
+    margin-top: -15%;
     margin-bottom: 15%;
 }
 
@@ -123,3 +124,12 @@ tr{
     
 }
 
+input {
+    color: white;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: white;
+    max-width: 200px;
+  }
+  

@@ -112,9 +112,9 @@
 
 
 
-    .lotimenu .lottie { 
-        margin-bottom: -20%;
-        margin-right: 4%;
+    .lotimenu, .lottie { 
+        margin-right: 1%;
+        margin-top: 10%;
     }
       
 
