@@ -1,0 +1,53 @@
+.testimonios-home {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.containerTestimonios {
+    display: flex;
+    justify-content: center;
+
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.main.card-home {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.right .card-home {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex: 1 1 calc(40% - 20px); /* Two columns with equal width */
+    max-width: calc(50% - 20px);
+}
+
+.card-home h2 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 0;
+}
+
+.card-home p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 0;
+}

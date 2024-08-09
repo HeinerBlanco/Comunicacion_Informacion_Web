@@ -1,0 +1,132 @@
+.ubicacion{
+    margin-top: 5vh;
+    width: 100%;
+}
+
+.map{
+    height: 50vh;
+    width: 100%;
+}
+.telefonos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+.container .left,
+.container .right {
+    flex: 1;
+    margin: 1vh;
+    padding: 1vh;
+}
+.right img{
+    width: 50vh;
+    height: 100%;
+}
+.left img{
+    width: 50vh;
+    height: 100%;
+}
+h1{
+    text-align: center;
+}
+.h1-span{
+    background: linear-gradient(10deg, var(--celeste-claro), var(--azul-oscuro)) ;
+    font-size: 2rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: "Hammersmith One", sans-serif;
+}
+span{
+    font-size: 1.5rem;
+}
+
+form {
+    width: 100%;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-size: 1.2em;
+    color: var(--azul-oscuro);
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid var(--azul-oscuro);
+    border-radius: 4px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.flex-container fieldset {
+    flex: 1;
+}
+.btn{
+    text-align: center;
+}
+button {
+    background-color: var(--celeste-claro);
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition:all 0.2s ease-in-out;
+    align-self: center;
+}
+
+button:hover {
+    background-color: var(--azul-oscuro);
+    color: #fff;
+}
+ul{
+    text-align: center;
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin-top: 10vh;
+        gap: 3rem;
+    }
+
+    .container .left,
+    .container .right {
+        margin: 5px 0;
+        text-align: center;
+    }
+    .container {
+        flex-direction: column;
+    }
+}

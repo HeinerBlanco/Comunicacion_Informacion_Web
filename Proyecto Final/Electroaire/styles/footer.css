@@ -1,0 +1,80 @@
+footer {
+    width: 100%;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap; /* Permitir el ajuste a varias columnas */
+}
+
+.column {
+    flex: 1 1 calc(20% - 20px); /* Ajustar ancho de las columnas */
+    padding: 0 10px;
+    margin-bottom: 20px; /* Espacio entre las columnas */
+}
+
+.form-column {
+    flex: 1 1 40%; /* Ancho mayor para la columna del formulario */
+}
+
+.phone-numbers h2, .mail h2, .ubicacion h2, .horario h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.phone-numbers span, .mail span, .ubicacion span, .horario span {
+    font-size: 1rem;
+}
+
+.horario ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.horario ul li {
+    font-size: 1rem;
+}
+
+.social {
+    width: 100%;
+    background: #ceeefa; /* Cambio de color de fondo */
+    color: #000;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social ul li {
+    font-size: 1em;
+}
+
+.social ul a {
+    color: inherit; /* Mantener el color */
+    text-decoration: none;
+}
+.logo-footer {
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer img {
+    height: 10rem;
+    margin-right: 15px;
+}
+

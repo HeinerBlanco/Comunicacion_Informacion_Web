@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.testimonios {
+    padding: 40px 20px;
+    margin-top: 10vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.left, .right {
+    flex: 1;
+}
+
+.main.card {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.right {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.right .card {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    flex: 1 1 calc(40% - 20px); /* Two columns with equal width */
+    max-width: calc(50% - 20px);
+}
+
+.card h2 {
+    font-size: 18px;
+    color: #333;
+    margin-top: 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .right {
+        flex-direction: row;
+        width: 100%;
+        
+    }
+
+    .right .card {
+        flex: 1 100%; /* Full width on smaller screens */
+        max-width: 100%;
+    }
+}

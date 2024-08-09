@@ -1,0 +1,106 @@
+.heroPorqueNosotros {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+.heroPorqueNosotros::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1599256630445-67b5772b1204?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+
+.heroPorqueNosotros::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.651); 
+    z-index: 2;
+}
+.hero-contentPorqueNosotros {
+    position: relative;
+    z-index: 3;
+    color: white; 
+    font-size: 3vh;
+    padding: 20px;
+    border-radius: 15px; 
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+/* Estilos generales para la sección info */
+.info .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.info .left, .info .right {
+    flex: 1;
+    padding: 10px;
+}
+
+.info h1 {
+    font-size: 3vh;
+    color: var(--azul-oscuro);
+}
+
+.info h2 {
+    font-size: 2.5vh;
+    color: #333;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 768px) {
+    .info .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info .left, .info .right {
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    /* Asegura que el h1 siempre esté encima del h2 */
+    .info .container .left {
+        order: 1;
+    }
+
+    .info .container .right {
+        order: 2;
+    }
+
+    .info:nth-child(even) .container .left {
+        order: 2;
+    }
+
+    .info:nth-child(even) .container .right {
+        order: 1;
+    }
+}
